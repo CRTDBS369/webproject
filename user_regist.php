@@ -19,7 +19,14 @@ $sql = "insert into pro values(\"$user_id\", \"$user_pass\", \"$user_name\", \"$
 
 mysqli_query($db,$sql);
 mysqli_close($db);
-echo "<a href=\"main.html\""
+
 ?>
+<script>
+    alert("등록 완료");
+</script>
+
+<a herf="login.html">
+돌아가기
+</a>
 </body>
 </html>
